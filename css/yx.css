@@ -1,10 +1,30 @@
-.panel{height:100vh; background:red;}
+.panel{height:100vh; }
+.p30{padding-top:30px;}
 .home{position:relative;}
-.case{background:blue;}
-.topbar {position:absolute; height:62px; background:rgba(0, 0, 0, .3); line-height: 62px; overflow:hidden;}
-.container {width:1280px; margin:0 auto;}
+.case{background:url(../images/p2_bg_0.jpg) no-repeat center center; background-size:cover;}
+.topbar {position:absolute; width:100%; height:62px; background:rgba(0, 0, 0, .3); line-height: 62px; overflow:hidden; z-index:2;}
+.container {width:1280px; margin:0 auto; overflow:hidden;}
 .logo {float:left; width:30%; padding:10px 0;}
 .menu {float:right; width:70%; text-align: right}
 .menu a {display:inline-block; padding: 0 12px 0 22px; color:#fff;}
 .menu a:hover, .menu a.active{color:#ff6600;}
-.slideshow {height:100%;background:url(../images/s-1.jpg) no-repeat center center; background-size: cover;}
+.slideshow {position:relative;height:100%;background:url(../images/s-1.jpg) no-repeat center center; background-size: cover;}
+.txtimg {position:absolute; left:0; background-image:url(../images/txt.png); background-repeat: no-repeat; width:100%;}
+.ti-1 {top: 282px; height:60px; background-position: center top;}
+.ti-2 {top: 379px; height:46px; background-position: center -150px;}
+.ti-3 {bottom: 147px; height:31px; background-position: center -300px;}
+.case-caption{height:67px; padding:54px 0 0; background:rgba(255, 255, 255, .5);}
+.case-caption div{width:357px; height:40px; margin:0 auto;  background:url(../images/txt.png) no-repeat 0 -450px;}
+.cases{width:1380px; padding:30px 0;}
+.case-item{float:left;width:262px; height:262px; margin:42px 0 0 46px; background:red; border-radius:40px; overflow:hidden;}
+.case-item a {display:block; width:100%; height:100%; background-repeat: no-repeat;background-size: center center; background-size: cover;}
+.cases .case-item:nth-child(1) a {background-image: url(../images/al_1.jpg);}
+.cases .case-item:nth-child(2) a {background-image: url(../images/al_2.jpg);}
+.cases .case-item:nth-child(3) a {background-image: url(../images/al_3.jpg);}
+.cases .case-item:nth-child(4) a {background-image: url(../images/al_4.jpg);}
+.cases .case-item:nth-child(5) a {background-image: url(../images/al_5.jpg);}
+.cases .case-item:nth-child(6) a {background-image: url(../images/al_6.jpg);}
+.cases .case-item:nth-child(7) a {background-image: url(../images/al_7.jpg);}
+.cases .case-item:nth-child(8) a {background-image: url(../images/al_8.jpg);}
+.case-more{width:384px;  padding:24px 0 25px; margin:0 auto; background:rgba(255, 255, 255, .5); border-radius:35px;}
+.case-more a{display:block; width:243px; height:20px; margin:0 auto; background:url(../images/txt.png) no-repeat left -600px;}

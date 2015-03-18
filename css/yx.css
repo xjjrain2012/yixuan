@@ -1,0 +1,10 @@
+.panel{height:100vh; background:red;}
+.home{position:relative;}
+.case{background:blue;}
+.topbar {position:absolute; height:62px; background:rgba(0, 0, 0, .3); line-height: 62px; overflow:hidden;}
+.container {width:1280px; margin:0 auto;}
+.logo {float:left; width:30%; padding:10px 0;}
+.menu {float:right; width:70%; text-align: right}
+.menu a {display:inline-block; padding: 0 12px 0 22px; color:#fff;}
+.menu a:hover, .menu a.active{color:#ff6600;}
+.slideshow {height:100%;background:url(../images/s-1.jpg) no-repeat center center; background-size: cover;}

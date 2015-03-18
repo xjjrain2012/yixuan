@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>网贷之家-藏宝图</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    
+    <style>
+        *{margin:0; padding:0;}
+        #form{width:640px; margin:20px auto;}
+        .box{display:-webkit-box; border-bottom:1px solid blue; -webkit-box-align:center; height:40px; line-height: 40px;}
+        .flex-1{-webkit-box-flex:1;}
+        .box .ico{ position:relative; width:100px; height:100%; text-align: center;}
+        .ico:after, .ico:before, .box-cont:before{position:absolute; display:block; content:""; width:1px; height:5px; background:blue;}
+        .ico:after {left:0; bottom:0;}
+        .ico:before, .box-cont:before{right:0; bottom:0;}
+        .flex-1 input{display:block; box-sizing:border-box; padding:2px 5px; border:none;  height:100%; width:100%; outline:none;}
+        .box .box-cont{position:relative;height:100%;}
+    </style>
+    
+</head>
+<body>
+    <div id="form">
+        <div class="box">
+            <div class="ico">123</div>
+            <div class="flex-1 box-cont">
+                <input type="text" placeholder="输入用户名">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
